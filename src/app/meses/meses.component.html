@@ -1,0 +1,9 @@
+<h1>Escolha o mês</h1>
+<h2>E ele mostrará em um alert o mês escolhido!</h2>
+<div>
+    <div> Meses:
+        <select (change)="changemonths($event)">
+          <option *ngFor = "let i of months">{{i}}</option>
+        </select>
+      </div>
+</div>

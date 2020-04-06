@@ -1,0 +1,42 @@
+.content{
+    display: flex;
+}
+
+.botaoDeTroca{
+    background-color: coral;
+    display: inline-flex;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border-style: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .botaoAlert{
+    background-color: rgb(252, 40, 2);
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border-style: none;
+    margin: 12px;
+    cursor: pointer;
+  }
+
+  .card.highlight-card {
+    background-color: #1976d2;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    height: 20px;
+    align-self: center;
+    padding: 15px;   
+  }
+
+.card.card.highlight-card.invalid{
+    background-color: red;
+  }

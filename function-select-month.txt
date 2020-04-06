@@ -1,0 +1,6 @@
+ changemonths(event) {
+  var select = document.querySelector('select');
+  var option = select.children[select.selectedIndex];
+  var texto = option.textContent;
+  alert(`Changed month from the Dropdown ${texto}`);
+ }

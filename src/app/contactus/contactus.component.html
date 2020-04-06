@@ -1,0 +1,12 @@
+<p>{{ saudacao }}</p>
+<div>
+    <span>
+        Digite um texto qualquer: <input (change)="recebeValor($event)">
+    </span>
+    <p *ngIf="!empty">
+        Valor digitado é de : {{value | titlecase}}
+    </p>
+    <p *ngIf="empty && number">
+        Só podem ser digitados valores strings!
+    </p>
+</div>

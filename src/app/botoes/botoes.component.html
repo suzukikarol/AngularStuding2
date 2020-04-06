@@ -1,0 +1,28 @@
+<h1>Testando Botões e condições com ngIf</h1>
+<!-- <span *ngIf = "isavailable">
+      Codition is valid. mostra o texto quando é válido
+    </span> -->
+<div class="content">
+  <div>
+    <button (click)="myFunction($event)" class="botaoDeTroca">
+      Troca cor da condição
+    </button>
+  </div>
+  <span *ngIf="isavailable; then condition1; else condition2"></span>
+  <ng-template #condition1
+    ><span class="card highlight-card valid"
+      >Condição válida por 1, porque é true</span
+    ></ng-template
+  >
+  <ng-template #condition2
+    ><span class="card highlight-card invalid"
+      >Condição válida por 2, porque é falso</span
+    ></ng-template
+  >
+</div>
+
+<div>
+  <button (click)="alerta($event)" class="botaoAlert">
+    Alerta!!!
+  </button>
+</div>
