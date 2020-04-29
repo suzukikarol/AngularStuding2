@@ -24,6 +24,7 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { FormularioComponent } from './formulario/formulario.component';
 import { ListaComponent } from './lista/lista.component';
 import { BotoesComponent } from './botoes/botoes.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { BotoesComponent } from './botoes/botoes.component';
     FormularioComponent,
     MesesComponent,
     ListaComponent,
-    BotoesComponent
+    BotoesComponent,
+    FooterComponent
 
   ],
   imports: [
