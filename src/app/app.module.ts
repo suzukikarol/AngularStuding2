@@ -27,6 +27,8 @@ import { BotoesComponent } from './botoes/botoes.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MaterialModule } from './material/material.module';
+
 @NgModule({
   declarations: [
     SqrtPipe,
@@ -48,6 +50,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    MaterialModule,
     ReactiveFormsModule,
     BrowserAnimationsModule
   
