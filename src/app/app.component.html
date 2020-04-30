@@ -11,9 +11,11 @@
 <div class="content">
   <div>
     <h2>Escolha uma das opções abaixo, e veja como funciona!</h2>
+    <h3>Esse projeto tem como fundamento principal, mostrar algumas funcionalidades do Angular e contar um pouco sobre a história dele também.</h3>
   </div>
 
   <nav class="navegation">
+
     <a routerLink="/raiz" class="opcao">Raiz</a>
     <a routerLink="/contatus" class="opcao">Contatos</a>
     <a routerLink="/cep" class="opcao">CEP</a>
@@ -22,9 +24,9 @@
     <a routerLink="/data" class="opcao">Datas</a>
     <a routerLink="/lista" class="opcao">Lista</a>
     <a routerLink="botoes" class="opcao">Botões</a>
+    <a routerLink="/" class="opcao">Reset</a>
+    <router-outlet class="routershow"></router-outlet>
 
-    <a routerLink="/" class="opcao">Voltar</a>
-    <router-outlet></router-outlet>
   </nav>
 
   

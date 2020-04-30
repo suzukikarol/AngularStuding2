@@ -9,7 +9,6 @@
 
 .toolbar {
   justify-content: center;
-  height: 680px;
   display: flex;
   align-items: center;
   background-color: #1976d2;
@@ -28,10 +27,10 @@
 }
 
 .navegation{
-  border: 1px solid black;
   width: 100%;
   align-items: center;
   justify-items: center;
+  text-align-last: center;
 }
 
 .card-container {
@@ -81,5 +80,8 @@ a.opcao{
   width: auto;
   padding: 10px;
   margin: 10px;
-  
+}
+
+a.opcao:hover{
+  background-color: rgb(99, 184, 156);
 }

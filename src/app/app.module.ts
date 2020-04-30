@@ -25,6 +25,7 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { ListaComponent } from './lista/lista.component';
 import { BotoesComponent } from './botoes/botoes.component';
 import { FooterComponent } from './footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   
   ],
   providers: [MyserviceService],
