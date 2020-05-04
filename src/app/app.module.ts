@@ -28,6 +28,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './material/material.module';
+import { NavegationComponent } from './navegation/navegation.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MaterialModule } from './material/material.module';
     MesesComponent,
     ListaComponent,
     BotoesComponent,
-    FooterComponent
+    FooterComponent,
+    NavegationComponent
 
   ],
   imports: [

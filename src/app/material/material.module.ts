@@ -6,6 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 const MaterialComponent = [
@@ -15,7 +16,8 @@ const MaterialComponent = [
   MatButtonModule,
   MatInputModule,
   MatToolbarModule,
-  MatSlideToggleModule
+  MatSlideToggleModule,
+  MatGridListModule
 ]
 
 @NgModule({

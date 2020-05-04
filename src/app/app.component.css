@@ -15,7 +15,7 @@
   color: white;
   font-weight: 600;
 }
- 
+
 .content {
   display: flex;
   margin: 82px auto 32px;
@@ -26,12 +26,7 @@
 
 }
 
-.navegation{
-  width: 100%;
-  align-items: center;
-  justify-items: center;
-  text-align-last: center;
-}
+
 
 .card-container {
   flex-wrap: wrap;
@@ -69,19 +64,4 @@
   min-width: 30%;
   position: relative;
   margin-left: 60px;
-}
-
-a.opcao{
-  background-color: #1976d2;
-  color: white !important;
-  text-decoration: none;
-  border-radius: 6px;
-  border: none;
-  width: auto;
-  padding: 10px;
-  margin: 10px;
-}
-
-a.opcao:hover{
-  background-color: rgb(99, 184, 156);
 }
